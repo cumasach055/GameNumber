@@ -5,13 +5,13 @@ let x = 17;
  var question = prompt('Введите число');
 
 
- if (question < 17 ) {
+ if (question < x ) {
  	alert('Маленькое число')
 
- } else if (question > 17) {
+ } else if (question > x) {
  	alert('Слишком большое число')
  } else if (question == x) {
  	alert('Введен правильно')
  }	else {
- 	alert("Число не введен")
+ 	alert('Число не Введен')
  }
